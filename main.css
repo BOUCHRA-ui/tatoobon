@@ -1,0 +1,251 @@
+/*HEADER*/
+
+header{
+        position:fixed;
+        top: 0;
+        left:0;
+        z-index: 1000;
+        background: #283747;
+        width: 100%}
+
+
+/*LOGO*/
+
+figure.logo{
+    width: 60px;
+    height: 60px;
+    margin: auto}
+
+/*BARRE DE NAVIGATION*/
+
+.navbar-light .navbar-nav .nav-link {
+            color: white;
+            transition: 1s;
+            margin-left: 200px;
+            float: left}
+
+.navbar-light .navbar-nav .nav-link:hover {
+            color:#cb4335}
+
+.navbar-light .navbar-toggler-icon, .blanc {
+            background-color: white;
+            margin-left: auto}
+
+/*MENU BURGER*/
+.blanc{
+            background-color: white}
+
+
+/*MAIN*/
+main {
+        background: #283747;
+        padding-bottom: 200px}
+
+.card-body{
+        background:#922b21;
+        color: white}
+
+
+section slide {
+        background: orange}
+
+article {background: #283747;
+margin-bottom: 50px}
+
+.tomate {
+    background: #283747}
+
+.container-fluid {
+    background: #283747}
+
+.cartedefrance {
+    padding-top: 100px;
+    margin:0 auto 50px}
+
+p {
+    color: white;
+    text-align: justify;
+    width: 80%}
+
+video{
+    width:100%;
+    height:auto;
+    max-width: 600px;
+    background: #922b21}
+
+.vid{display: flex;
+flex-direction: column;
+align-items: center}
+
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    background:  white;
+    padding-top: 40px;
+    height: 100px;
+    margin: lef;
+    position: fixed;
+	bottom: 0}
+
+p.footer{
+    color: red;
+    float: left;
+    height: 100px;
+    width: 50%;
+    margin:0px 50px 0px 50px}
+
+
+ 
+@media (max-height:700px){
+	footer { position: static }
+	header { padding-top:40px }
+}
+ 
+.footer-distributed{
+	background-color: white;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 0px 50px 80px 100px}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	
+}
+ 
+/* Footer left */
+  
+.footer-distributed h3{
+	color:  black;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+	width: 30%}
+ 
+.footer-distributed h3 span{
+	color:  #a93226}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  black}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 30%;
+    padding-left: 50px}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: white;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #283747;
+	vertical-align: middle;
+	margin:0}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2}
+ 
+.footer-distributed .footer-center p a{
+	color:  #a93226;
+	text-decoration: none}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+    padding-left: 70px}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #283747;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 40px}
+
+.bouch{padding-top: 200px}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px}
+ 
+@media screen and (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0}
+ }
+
+footer.footer-distributed h3 { font-size: 20px}
+footer.footer-distributed h3 span { font-size: 30px;
+break-after: auto}

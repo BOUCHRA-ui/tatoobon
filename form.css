@@ -1,0 +1,57 @@
+/*CONTACT*/
+
+form{padding-top: 200px}
+
+div.table{
+    width: 60%;
+    padding: 30px;
+    height: auto;
+    background: #a93226 ;
+    margin: auto;
+    border: 1px solid  #17202a}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto}
+
+.form-input{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px}
+
+.checkbox{
+    width: 300px;
+    margin: auto; 
+    display: flex}
+
+.send{
+    width: 100px;
+ 
+    margin-left: 40%;
+}
+
+.send:hover{
+    color: #17202a;
+    background: #641e16 ;
+    transition: 1s;
+    margin: auto}
+
+
+
+input, select, textarea{
+    width: 100%;
+    background: #f9ebea}
+
+input {
+    width: 100%}
+
+dic.bas.input.checkbox{padding-top: 10px}
+
+
+
+
+

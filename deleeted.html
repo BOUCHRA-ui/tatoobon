@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gauche">
+<label for="nom" class="titre">Nom:</label>
+<label for="prenom" class="titre">Pr&eacute;nom:</label>
+<label for="email" class="titre">Email:</label>
+<label for="telephone"class="titre">T&eacute;l&eacute;phone:</label>
+
+<label for="message" class="titre">Message:</label>
+       </div>
+    
+    
+<!--    input partie de droite-->
+    <div class="droite">
+ <div class="zone">
+<!-- id permet de faire comprendre que c'est un attribut lisable par css et js l'id est unnique tjrs ecrire la meme chose que sur la premiere balise for!!! balise nom pour le php-->
+   <input type="text" id="nom" name="nom" required placeholder="Nom">
+   </div>
+    
+     <div class="zone">
+   <input type="text" id="prenom" name="prenom" required placeholder="Prenom">
+   </div>
+   
+<!--   type email verifier qu'il y a bien l@-->
+    <div class="zone">
+   <input type="email" id="email" name="email" required placeholder="Email">
+   </div>
+   
+<!--   type tel pour avoir le clavier numerique sur les smartphones-->
+    <div class="zone">
+   <input type="tel" id="telephone" name="telephone" placeholder="Telephone">
+   </div>
+   
+   
+    <div class="zone">
+=<!--   ENLEVER LE col=30-->
+    <textarea name="message" id="message"  rows="10">     
+    </textarea>
+        </div>
+    
+</div>
+   
+   
+   
+   
+   
+<!--
+   <div class="bas">
+  
+  <input id="checkbox" type="checkbox" name="news" value="news" class="radio" /> 
+  <label for="checkbox">Recevoir la newsletter.</label>
+   </div>
+-->
+  
+  <input type="checkbox">
+   
+   
+   
+   <div class="bas">
+       <input type="submit" name="envoi" id="sbmit" value="Envoyer" class="input">
+   </div>
+</body>
+</html>
